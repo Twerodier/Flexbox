@@ -1,0 +1,32 @@
+.flexbox {
+    display: flex;
+    gap: .5em;
+    border: 1px solid black;
+    border-radius: .3em;
+    background-color: lightgray;
+    padding: .2em;
+    margin: 1em;
+}
+
+.flex-item {
+    align-items: center;
+    display: flex;
+    min-width: 5em;
+    min-height: 2em;
+    border: 2px solid black;
+    border-radius: .5em;
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
